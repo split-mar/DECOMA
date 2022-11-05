@@ -1,0 +1,20 @@
+{
+  "name": "splitmariela-segundaentrega",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --ver scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/split-mar/DECOMA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/split-mar/DECOMA/issues"
+  },
+  "homepage": "https://github.com/split-mar/DECOMA#readme"
+}
