@@ -4,9 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contacto</title>
-    <!-- css -->
-    <link rel="stylesheet" href="css/style.css" />
+    <title>Ingenieros & Arquitectos</title>
+    <meta
+    name="description"
+    content="Ingeniería civil.Obras provinciales y nacionales-Proyectos de grandes dimensiones.Mantenimiento de gasoductos.Conexiones hidráulicas.Obras viales.
+    Arquitectura y diseño.Seguimos las nuevas vanguardias.Espacios funcionales.Proyectos de gran escala.Arte y técnica"
+    >
+    <meta 
+    name="keywords"
+    content="ingeniería civil,ingenieros,obras,proyectos,arquitectura,confianza,vialidad,gasoductos,diseño,funcionalidad,confianza,vanguardia,decoma,córdoba,américa, argentina"
+    >
     <!-- CSS only -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
@@ -14,25 +21,33 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" />
     <!-- google fonds -->
     <enlace
       href="https: //fonts.googleapis.com/css2? familia= Montserrat:ital,peso@1,400;1,600;1,700 & display=swap"
       rel="hoja de estilo"
     ></enlace>
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body class="body">
     <header>
       <nav
-        class="navbar navbar-expand-lg navbar-light"
-        style="background-color: #6c91ac"
+        class="navbar navbar-expand-lg navbar-light navColor"
       >
         <div class="container-fluid">
           <a class="navbar-brand" href="#"
             ><img
               src="imagenes/decoma2.png"
-              class="img-fluid"
-              width="10% "
-              alt="..."
+              class="img-fluid miLogo"       
+              alt="logo"
             />
           </a>
           <button
@@ -64,29 +79,68 @@
       </nav>
     </header>
 
-    <div class="contenedor1">
-      <form class="formulario" action="">
-        <label for="nombre">Nombre:</label>
-        <input type="text=" name="nombre" id="nombre" />
-        <br />
-        <label for="apellido">Apellido:</label>
-        <input type="text=" name="apellido" id="Apellido" />
-        <br />
-        <label for="mensaje">Mensaje</label>
-        <br />
-        <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
-        <br />
-        <input type="submit" value="Enviar" />
-        <input type="reset" value="Limpiar" />
-      </form>
-    </div>
+    <section class="portada">
+    
+      <h2 class="text-white bg-dark px-2 mx-3  mt-2">Tus proyectos a un sólo clic de distancia</h2>
+    
+    </section>
+    <section class="">
+      <div class="container-fluid bg-white mt-3 miContenedor ">
+        <div class="row">
+          <div class="col d-flex">
+            <div class="contenedor1">
+              <form class="formulario" action="">
+                <label for="nombre">Nombre:</label>
+                <input type="text=" name="nombre" id="nombre" />
+                <br />
+                <label for="apellido">Apellido:</label>
+                <input type="text=" name="apellido" id="Apellido" />
+                <br />
+                <label for="mensaje">Mensaje</label>
+                <br />
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                <br />
+                <input type="submit" value="Enviar" />
+                <input type="reset" value="Limpiar" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-fluid  miClass">
+        <div class="row d-flex bg-white my-3">
+         <div class="col">
+           <i class="fa-solid fa-location-dot"></i>
+           <h4>Ubicación</h4>
+           <h5>Pasaje Sarmiento N°34-Salsipuedes-CBA</h5>
+         </div>
+         <div class="col">
+           <i class="fa-solid fa-phone"></i>
+           <h4>Teléfono</h4>
+           <h5>351-5165281</h5>
+         </div>
+         <div class="col">
+           <i class="fa-solid fa-paper-plane"></i>
+           <h4>Email</h4>
+           <h5>ingdelcorro@gmail.com</h5>
+         </div>
+         <div class="col">
+           <i class="fa-sharp fa-solid fa-clock"></i>
+           <h4>Horario</h4>
+           Lunes a viernes,de 8 a 13hs y de 16hs a 19hs
+         </div>
+        </div>
+     </div>
+    </section>
 
     <footer>
       <div class="container-text text-center">
         <div class="d-flex justify-content-center align.items-center pb-2 pb-2 bg-dark text-white">
           <div class="col-xs-12 col-md-6 col-lg-3">
-            <p class="h3 p-2" >DECOMA</p>
-            <p>Dirección: Pasaje Santa Fe N°36</p>
+            <p class="h3 p-4" >DECOMA</p>
           </div>
           <div class="col-xs-12 col-md-6 col-lg-3">
             <p class="h5 p-2">Encontranos en:</p>

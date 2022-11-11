@@ -5,8 +5,7 @@
 }
 
 .body {
-  background: antiquewhite;
-  color: rgb(13, 13, 13);
+  background: #303234;
   font-family: "Montserrat, sans-serif";
   min-height: 100vh;
   height: auto;
@@ -24,6 +23,13 @@
 
 .nav-link {
   text-transform: uppercase;
+}
+
+.navColor {
+  background-color: #6c91ac;
+}
+.navColor .miLogo {
+  width: 10%;
 }
 
 .piedepagina {
@@ -157,15 +163,34 @@
   margin: 10% 10% 10%;
 }
 
+.portada {
+  background-image: url(../../imagenes/estudioarquitectura.jpg);
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.miContenedor {
+  height: 50vh;
+}
+
+.miClass {
+  height: 10vh;
+}
+
 .row {
-  background-color: aqua;
   padding: 8px;
   margin: 10px;
   height: 200px;
 }
 
-.col {
-  background-color: aquamarine;
+.miContenedor2 {
+  height: 20vh;
+}
+
+.miContenedor3 {
+  height: 90%;
 }
 
 /*# sourceMappingURL=style.css.map */

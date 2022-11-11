@@ -7,3 +7,17 @@
     margin: 10% 10% 10%;
   }
 }
+.portada {
+  background-image: url(../../imagenes/estudioarquitectura.jpg);
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.miContenedor {
+  height: 50vh;
+}
+
+.miClass {
+  height: 10vh;
+}
