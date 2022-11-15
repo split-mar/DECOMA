@@ -50,7 +50,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../imagenes/index-imagen.jpg);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imagenes/index-imagen.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -164,7 +164,7 @@
 }
 
 .portada {
-  background-image: url(../../imagenes/estudioarquitectura.jpg);
+  background-image: url("../imagenes/estudioarquitectura.jpg");
   height: 40vh;
   display: flex;
   justify-content: center;
