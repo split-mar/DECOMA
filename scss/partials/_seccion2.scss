@@ -9,3 +9,26 @@
 .miContenedor3 {
   height: 90%;
 }
+.miGradiante {
+  background: rgb(247, 246, 244);
+  background: linear-gradient(
+    90deg,
+    rgba(247, 246, 244, 1) 0%,
+    rgba(247, 229, 193, 1) 7%,
+    rgba(247, 229, 193, 1) 16%,
+    rgba(231, 205, 109, 1) 33%,
+    rgba(190, 206, 135, 1) 45%,
+    rgba(207, 191, 145, 1) 58%,
+    rgba(223, 236, 166, 1) 80%,
+    rgba(237, 236, 168, 1) 96%,
+    rgba(242, 241, 234, 0.6951155462184874) 100%
+  );
+}
+.miTransición {
+  transition: all 0.3s;
+}
+.miTransicion :hover {
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
+    rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px,
+    rgba(240, 46, 170, 0.05) 25px 25px;
+}
