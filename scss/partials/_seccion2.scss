@@ -19,10 +19,13 @@
     rgba(242, 241, 234, 0.6951155462184874) 100%
   );
 }
-
-.miTransicion img:hover {
+img.img-fluid:hover {
+  scale: 1;
+  transition: auto;
+  transform: scale(1.5);
   cursor: pointer;
-  transition: all(400ms);
-  position: relative;
-  transform: scale(1, 1);
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
 }
