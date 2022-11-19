@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -33,21 +32,21 @@
   width: 10%;
 }
 
-.piedepagina {
-  background-color: rgb(151, 117, 74);
-  padding: 1em 0;
-  text-align: center;
-  position: absolute;
-  bottom: 0%;
+.fa-facebook {
+  background-color: rgb(232, 234, 240);
 }
 
-.piedepagina {
-  width: 100%;
+.fa-instagram {
+  background-color: rgb(226, 219, 228);
+}
+
+.fa-whatsapp {
+  background-color: rgb(25, 190, 72);
 }
 
 .fondo {
   width: 100%;
-  height: 100vh;
+  height: 84vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,18 +55,19 @@
   background-size: cover;
   background-position: center;
 }
-
-.fondo-texto {
-  width: 50%;
+.fondo .fondo-texto {
+  width: 35%;
   text-align: center;
   font-weight: bold;
   margin-bottom: 10%;
   color: rgb(234, 227, 227);
-}
-.fondo-texto .textoportada {
-  display: flex;
   justify-content: center;
   align-items: flex-start;
+  flex-direction: column;
+  overflow: auto;
+}
+.fondo .fondo-texto .miParrafo {
+  font-size: 25px;
 }
 
 .contenido-card {
@@ -225,18 +225,12 @@
   height: 50vh;
 }
 
-.row {
-  padding: 8px;
-  margin: 10px;
-  height: 200px;
-}
-
 .miContenedor2 {
-  height: 20vh;
+  height: 15vh;
 }
 
 .miContenedor3 {
-  height: 90%;
+  height: 30vh;
 }
 
 .miGradiante {
@@ -244,12 +238,11 @@
   background: linear-gradient(90deg, rgb(247, 246, 244) 0%, rgb(247, 229, 193) 7%, rgb(247, 229, 193) 16%, rgb(231, 205, 109) 33%, rgb(190, 206, 135) 45%, rgb(207, 191, 145) 58%, rgb(223, 236, 166) 80%, rgb(237, 236, 168) 96%, rgba(242, 241, 234, 0.6951155462) 100%);
 }
 
-.miTransición {
-  transition: all 0.3s;
-}
-
-.miTransicion :hover {
-  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+.miTransicion img:hover {
+  cursor: pointer;
+  transition: all(400ms);
+  position: relative;
+  transform: scale(1, 1);
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,6 +1,6 @@
 .fondo {
   width: 100%;
-  height: 100vh;
+  height: 84vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9,16 +9,18 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-.fondo-texto {
-  width: 50%;
-  text-align: center;
-  font-weight: bold;
-  margin-bottom: 10%;
-  color: rgb(234, 227, 227);
-  .textoportada {
-    display: flex;
+  .fondo-texto {
+    width: 35%;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10%;
+    color: rgb(234, 227, 227);
     justify-content: center;
     align-items: flex-start;
+    flex-direction: column;
+    overflow: auto;
+    .miParrafo {
+      font-size: 25px;
+    }
   }
 }
