@@ -1,9 +1,3 @@
-.miContenedor2 {
-  height: 15vh;
-}
-.miContenedor3 {
-  height: 30vh;
-}
 .miGradiante {
   background: rgb(247, 246, 244);
   background: linear-gradient(
@@ -30,7 +24,7 @@ img.img-fluid:hover {
   height: auto;
 }
 @media screen and (max-width: 500px) {
-  img.img-fluid {
+  .img-fluid {
     transition: none;
     transform: none;
   }
