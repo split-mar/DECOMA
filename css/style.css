@@ -221,10 +221,6 @@
     width: 100%;
   }
 }
-.miContenedor {
-  height: 50vh;
-}
-
 .miContenedor2 {
   height: 15vh;
 }
@@ -250,12 +246,15 @@ img.img-fluid:hover {
   height: auto;
 }
 
+@media screen and (max-width: 500px) {
+  img.img-fluid {
+    transition: none;
+    transform: none;
+  }
+}
 .miContainer4 {
   height: 55vh;
-}
-
-.miContainer5 {
-  height: 25vh;
+  position: relative;
 }
 
 .escrito {
@@ -265,6 +264,17 @@ img.img-fluid:hover {
   padding: 2%;
   text-align: center;
   justify-content: center;
+}
+
+.texto-conter {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 500px) {
+  .miContainer4 {
+    height: 25vh;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

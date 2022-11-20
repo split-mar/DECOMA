@@ -1,10 +1,7 @@
 .miContainer4 {
   height: 55vh;
+  position: relative;
 }
-.miContainer5 {
-  height: 25vh;
-}
-
 .escrito {
   font-size: 150%;
   color: white;
@@ -12,4 +9,14 @@
   padding: 2%;
   text-align: center;
   justify-content: center;
+}
+
+.texto-conter {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 500px) {
+  .miContainer4 {
+    height: 25vh;
+  }
 }

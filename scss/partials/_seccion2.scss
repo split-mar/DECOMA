@@ -29,3 +29,9 @@ img.img-fluid:hover {
   max-width: 100%;
   height: auto;
 }
+@media screen and (max-width: 500px) {
+  img.img-fluid {
+    transition: none;
+    transform: none;
+  }
+}
