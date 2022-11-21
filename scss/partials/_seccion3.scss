@@ -3,18 +3,15 @@
   position: relative;
 }
 .escrito {
-  font-size: 150%;
   color: white;
+  font-weight: bold;
+  font-size: 150%;
   margin: auto;
   padding: 2%;
   text-align: center;
   justify-content: center;
 }
 
-.texto-conter {
-  display: flex;
-  flex-direction: row;
-}
 @media screen and (max-width: 500px) {
   .miContainer4 {
     height: 25vh;

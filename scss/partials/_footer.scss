@@ -1,10 +1,13 @@
 $redes: (
   facebook: rgb(232, 234, 240),
-  instagram: rgb(226, 219, 228),
+  instagram: rgb(227, 166, 244),
   whatsapp: rgb(25, 190, 72),
 );
 @each $redsocial, $colordered in $redes {
   .fa-#{$redsocial} {
     background-color: $colordered;
   }
+}
+.misIconos {
+  font-size: 200%;
 }

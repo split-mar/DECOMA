@@ -18,6 +18,7 @@
   grid-template-columns: repeat(12, minmax(auto, 60px));
   grid-gap: 40px;
 }
+
 .card {
   grid-column-end: span 4;
   display: flex;

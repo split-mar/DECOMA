@@ -13,7 +13,6 @@
 }
 
 .header {
-  background-color: #9ca7b6;
   height: 80px;
   position: fixed;
   width: 100%;
@@ -37,11 +36,15 @@
 }
 
 .fa-instagram {
-  background-color: rgb(226, 219, 228);
+  background-color: rgb(227, 166, 244);
 }
 
 .fa-whatsapp {
   background-color: rgb(25, 190, 72);
+}
+
+.misIconos {
+  font-size: 200%;
 }
 
 .fondo {
@@ -62,7 +65,6 @@
   text-shadow: 3px 3px 0 rgb(5, 7, 8);
   padding-top: 10%;
   margin: auto;
-  overflow: auto;
 }
 .fondo .miParrafo {
   font-size: 30px;
@@ -258,17 +260,13 @@ img.img-fluid:hover {
 }
 
 .escrito {
-  font-size: 150%;
   color: white;
+  font-weight: bold;
+  font-size: 150%;
   margin: auto;
   padding: 2%;
   text-align: center;
   justify-content: center;
-}
-
-.texto-conter {
-  display: flex;
-  flex-direction: row;
 }
 
 @media screen and (max-width: 500px) {
