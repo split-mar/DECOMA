@@ -234,22 +234,31 @@
 .miGradiante {
   background: rgb(247, 246, 244);
   background: linear-gradient(90deg, rgb(247, 246, 244) 0%, rgb(247, 229, 193) 7%, rgb(247, 229, 193) 16%, rgb(231, 205, 109) 33%, rgb(190, 206, 135) 45%, rgb(207, 191, 145) 58%, rgb(223, 236, 166) 80%, rgb(237, 236, 168) 96%, rgba(242, 241, 234, 0.6951155462) 100%);
+  font-size: 150%;
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 img.img-fluid:hover {
   scale: 1;
   transition: auto;
-  transform: scale(1.5);
+  transform: scale(1.2);
   cursor: pointer;
 }
 
 .img-fluid {
   max-width: 100%;
   height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 500px) {
-  .img-fluid {
+  img.img-fluid:hover {
     transition: none;
     transform: none;
   }
