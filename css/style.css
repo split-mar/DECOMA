@@ -178,7 +178,7 @@
 .portada .textoportada {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 .portada .formulario {
   display: flex;
