@@ -242,6 +242,10 @@
   align-items: center;
 }
 
+.miSection {
+  height: 75vh;
+}
+
 img.img-fluid:hover {
   scale: 1;
   transition: auto;
