@@ -10,6 +10,7 @@
   min-height: 100vh;
   height: auto;
   width: 100vw;
+  position: relative;
 }
 
 .header {
@@ -45,6 +46,11 @@
 
 .misIconos {
   font-size: 200%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
 }
 
 .fondo {
@@ -235,30 +241,23 @@
   background: rgb(247, 246, 244);
   background: linear-gradient(90deg, rgb(247, 246, 244) 0%, rgb(247, 229, 193) 7%, rgb(247, 229, 193) 16%, rgb(231, 205, 109) 33%, rgb(190, 206, 135) 45%, rgb(207, 191, 145) 58%, rgb(223, 236, 166) 80%, rgb(237, 236, 168) 96%, rgba(242, 241, 234, 0.6951155462) 100%);
   font-size: 150%;
-  max-width: 100%;
-  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.miSection {
-  height: 75vh;
 }
 
 img.img-fluid:hover {
   scale: 1;
   transition: auto;
-  transform: scale(1.2);
+  transform: scale(1.8);
   cursor: pointer;
+  display: flex;
+  justify-content: center;
 }
 
 .img-fluid {
   max-width: 100%;
   height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 @media screen and (max-width: 500px) {

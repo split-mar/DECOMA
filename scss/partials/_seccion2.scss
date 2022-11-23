@@ -13,28 +13,22 @@
     rgba(242, 241, 234, 0.6951155462184874) 100%
   );
   font-size: 150%;
-  max-width: 100%;
-  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.miSection {
-  height: 75vh;
 }
 
 img.img-fluid:hover {
   scale: 1;
   transition: auto;
-  transform: scale(1.2);
+  transform: scale(1.8);
   cursor: pointer;
+  display: flex;
+  justify-content: center;
 }
 .img-fluid {
   max-width: 100%;
   height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 @media screen and (max-width: 500px) {
   img.img-fluid:hover {
